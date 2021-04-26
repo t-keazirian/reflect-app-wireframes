@@ -1,0 +1,41 @@
+nav {
+  margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+  background-color: gray;
+}
+
+div.nav {
+  display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+  color: black;
+}
+
+a.homepage-link {
+  font-size: 30px;
+}
+
+@media all and (min-width: 600px) {
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.homepage-link {
+    margin-left: 20px;
+  }
+
+  div.nav {
+    align-items: center;
+  }
+
+  a.login-link, a.signup-link {
+    padding-right: 20px;
+  }
+}
