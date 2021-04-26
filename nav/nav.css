@@ -5,7 +5,7 @@
 nav {
 	padding-bottom: 20px;
 	padding-top: 20px;
-  background-color: gray;
+  background-color: #89ac55;
   display: flex;
   justify-content: space-around;
 }
@@ -19,7 +19,7 @@ div.nav {
 
 a {
 	text-decoration: none;
-  color: black;
+  color: #ecf2e6;
 }
 
 a.homepage-link {
