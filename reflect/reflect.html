@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reflect.css" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="reflect.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
 			crossorigin="anonymous"
 		/>
-  <title>Reflect</title>
-</head>
-<body>
-  
-</body>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+		<title>Reflect</title>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>REFLECT</h1>
+			</header>
+			<div class="reflect-box">
+				<form class="reflection-form">
+					<div class="describe">
+						<label for="one-word"></label>
+						<h2>Describe your session in a few words:</h2>
+						<input type="text" name="one-word" id="one-word" required />
+					</div>
+					<div class="mood">
+						<h2>How is your mood?</h2>
+					</div>
+					<div class="radio">
+						<input type="radio" name="mood" id="sad-face" required />
+						<label for="sad-face"><i class="far fa-frown fa-3x"></i></label>
+						<input type="radio" name="mood" id="avg-face" />
+						<label for="avg-face"><i class="far fa-meh fa-3x"></i></label>
+						<input type="radio" name="mood" id="smiley" />
+						<label for="smiley"><i class="far fa-smile fa-3x"></i></label>
+					</div>
+
+					<div class="reflection-text">
+						<h2>Reflections:</h2>
+						<label for="reflections"></label>
+						<p>
+							Type any of your thoughts below. This can be an informal,
+							free-form journal entry. Document how the session went overall.
+							Where were your thoughts? How do you feel now? Free your mind of
+							any judgement.
+						</p>
+						<textarea
+							name="reflections"
+							id="reflections"
+							cols="40"
+							rows="10"
+							required
+						>
+						</textarea>
+					</div>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
 </html>
