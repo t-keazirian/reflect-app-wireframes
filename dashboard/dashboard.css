@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+
+
+@media all and (min-width: 600px) {
+  div.main {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.dashboard {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 800px; */
+    align-items: center;
+  }
+}
