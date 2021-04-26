@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+div.start {
+	text-align: center;
+}
+
+div.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+button[type='button'] {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: #89ac55;
+	color: #ecf2e6;
+	margin: 10px;
+	border: none;
+}
+
+.fa-linkedin:before,
+.fa-github-square:before {
+	text-align: center;
+}
