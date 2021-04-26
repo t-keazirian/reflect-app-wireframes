@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+}
+
+div.details {
+  border: 1px solid black;
+  text-align: center;
+}
+
+p.reflections-p {
+  padding: 15px;
+  line-height: 1.5;
+}
+
+div.buttons {
+  margin: 10px;
+  text-align: center;
+}
+
+@media all and (min-width: 600px) {
+  div.details {
+    max-width: 800px;
+  }
+
+  div.main-meditation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p.reflections-p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
